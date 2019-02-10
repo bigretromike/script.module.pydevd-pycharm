@@ -1,8 +1,0 @@
-pydev_pysrc
-pydevd
-pycompletionserver
-pydevconsole
-pydevd_file_utils
-pydev_app_engine_debug_startup
-interpreterInfo
-pydev_coverage

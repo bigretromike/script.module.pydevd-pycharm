@@ -1,8 +1,11 @@
-<addon id="script.module.pydevd" name="pydevd-pycharm" version="10.4.4.0" provider-name="Fabio Zadrozny, Paul Backhouse, Marc Ammon, JetBrains, da3dsoul">
+<addon id="script.module.pydevd-pycharm" name="pydevd-pycharm" version="10.4.4.0" provider-name="Fabio Zadrozny, Paul Backhouse, Marc Ammon, JetBrains, da3dsoul">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.python.pluginsource">
+        <provides></provides>
+    </extension>
 	<extension point="xbmc.addon.metadata">
 	    <summary lang="en">Kodi support for PyDev remote debugging in Pycharm.</summary>
 	    <description lang="en">See here for details: http://pydev.org/manual_adv_remote_debugger.html</description>
