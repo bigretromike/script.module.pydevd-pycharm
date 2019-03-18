@@ -1,8 +1,11 @@
-<addon id="script.module.pydevd-pycharm" name="pydevd-pycharm" version="10.4.4.0" provider-name="Fabio Zadrozny, Paul Backhouse, Marc Ammon, JetBrains, da3dsoul">
+<addon id="script.module.pydevd-pycharm" name="pydevd-pycharm" version="10.4.4.1" provider-name="Fabio Zadrozny, Paul Backhouse, Marc Ammon, JetBrains, da3dsoul">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.python.script" library="lib/pydevd.py">
+		<provides>executable</provides>
+	</extension>
 	<extension point="xbmc.python.pluginsource">
         <provides></provides>
     </extension>
